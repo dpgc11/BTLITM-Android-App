@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.btlitm.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:scaleType="center"
+        android:src="@drawable/btlitm"
+        android:id="@+id/imageView"
+         />
+
+    <TextView
+        android:text="BTLITM, Bangalore\nCourses offered: BE, PUC, MBA, Dip.\nHours: 9am - 5pm\nWebsite: http://www.btlit.ac.in/"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:autoLink="web"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+</LinearLayout>
